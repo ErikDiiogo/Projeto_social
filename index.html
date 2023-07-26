@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <title>Projeto Rede Social</title>
     <style>
     *{
@@ -13,7 +13,7 @@
     }
     html, body{
         height: 100vh;
-        width: 100vh;
+        width: 100vw;
     }
     body{
         background: url(./fundo-madeira.jpg) no-repeat top center;
@@ -35,12 +35,19 @@
         width: 311px;
         background: url(./frame-iphone.png) no-repeat;
     }
+    iframe#tela{
+        position: relative;
+        top: 88px;
+        left: 22px;
+        width: 269px;
+        height: 471px;
+    }
     </style>
 </head>
 <body>
     <main>
         <section id="telefone">
-
+            <iframe src="/Home.html" frameborder="0" name="tela" id="tela"></iframe>
         </section>
         <section id="rede sociais">
 
